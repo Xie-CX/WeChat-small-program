@@ -1,0 +1,21 @@
+<!--pages/components/common-footer.wxml-->
+<view class='common-footer-holder'>
+  <view class='common-footer'>
+    <view class="nav-item" catchtap='goIndex'>
+      <text class="iconfont icon-iconsy1"></text>
+      <text class='item-name'>首页</text>
+    </view>
+    <view class="nav-item" catchtap='goCategory'>
+      <text class="iconfont icon-fenlei"></text>
+      <text class='item-name'>分类</text>
+    </view>
+    <view class="nav-item" catchtap='goCart'>
+      <text class="iconfont icon-tubiaolunkuo-"></text>
+      <text class='item-name'>购物车</text>
+    </view>
+    <view class="nav-item" catchtap='goMine'>
+      <text class="iconfont icon-wode"></text>
+      <text class='item-name'>我的</text>
+    </view>
+  </view>
+</view>

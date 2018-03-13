@@ -1,0 +1,59 @@
+<!--list.wxml-->
+<view class="index-goods-list">
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+</view>

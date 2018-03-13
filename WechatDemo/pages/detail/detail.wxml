@@ -1,0 +1,39 @@
+<!--detail.wxml-->
+<view class='swipe-img'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='goods-detail'>
+  <view class='detail-goods-message'>
+    <text class='goods-name'>测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视测试电视</text>
+    <text class='goods-summary'>商品描述商品描述</text>
+    <text class='goods-price'>￥2222.00</text>
+    <view class='goods-saleNum-comment'>
+      <text>月销量：0</text>
+      <text class='comment'>累计评价：0</text>
+    </view>
+    <view class='goods-num'>
+      <text>数量：</text>
+      <view class='count'>
+        <text catchtap='minus'>-</text><input value='{{num}}' disabled></input><text  catchtap='plus'>+</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='goods-description'>
+  <text>图文详情</text>
+  <view>
+    <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+  </view>
+</view>
+<view class='goods-detail-footer-holder'>
+  <view class='goods-detail-footer'>
+    <text>立即购买</text>
+  </view>
+</view>

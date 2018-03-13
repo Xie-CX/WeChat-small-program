@@ -1,0 +1,39 @@
+/* pages/components/common-footer.wxss */
+@import "../../icon/iconfont.wxss";
+.common-footer-holder{
+  height: 140rpx;
+}
+.common-footer{
+  height: 140rpx;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  border-top: 1rpx solid #cccccc;
+}
+.common-footer .nav-item{
+  margin-top: 10rpx;
+  /* border-right: 1rpx solid #ccc; */
+}
+.common-footer .nav-item text{
+  display: block;
+  text-align: center;
+  font-size: 70rpx;
+}
+.common-footer .nav-item image{
+  display: block;
+  margin: 0 auto;
+  padding: 0 15rpx;
+  width: 70rpx ;
+  height: 70rpx;
+}
+.common-footer .nav-item .item-name{
+  display: block;
+  /* margin-top: 10rpx; */
+  width: 187.5rpx;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+<view class='user-message'>
+  <image src='{{avatarUrl}}'></image>
+  <text class='user-name'>{{nickName}}</text>
+  <text class='user-point'>用户积分：1111</text>
+</view>
+<view class='orders'>
+  <text class='my-orders'>我的订单</text>
+  <text class='all-orders'>查看所有订单 ></text>
+</view>
+<view class='mine-nav'>
+  <view class="nav-item" catchtap='goList'>
+    <text class="iconfont icon-tubiaolunkuo-3"></text>
+    <text class='item-name'>待付款</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <text class="iconfont icon-tubiaolunkuo-6"></text>
+    <text class='item-name'>待发货</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <text class="iconfont icon-tubiaolunkuo-4"></text>
+    <text class='item-name'>待收货</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <text class="iconfont icon-tubiaolunkuo-5"></text>
+    <text class='item-name'>待评价</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <text class="iconfont icon-tubiaolunkuo-2"></text>
+    <text class='item-name'>退款售后</text>
+  </view>
+</view>
+<progress percent="100" color="#eeeeee" />
+<view class='my-util'>
+  <view>我的应用</view>
+</view>
+<view class='util'>
+  <view class='util-nav'>
+    <view class="nav-item" catchtap='goList'>
+      <image src='../../images/jingpin.png'></image>
+      <text class='item-name'>积分明细</text>
+    </view>
+    <view class="nav-item" catchtap='goList'>
+      <image src='../../images/jingpin.png'></image>
+      <text class='item-name'>地址管理</text>
+    </view>
+    <view class="nav-item" catchtap='goList'>
+      <image src='../../images/jingpin.png'></image>
+      <text class='item-name'>我的收藏</text>
+    </view>
+  </view>
+</view>
+<block>
+  <include src="../components/common-footer" />
+</block>

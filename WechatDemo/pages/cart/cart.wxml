@@ -1,0 +1,43 @@
+<view class="cart-goods-list">
+  <view class='goods-list' catchtap='goDetail'>
+    <checkbox></checkbox>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">￥2222.00 × 1</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <checkbox></checkbox>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">￥2222.00 × 3</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <checkbox></checkbox>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">￥2222.00 × 1</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <checkbox></checkbox>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">￥2222.00 × 1</text>
+    </view>
+  </view>
+</view>
+<view class='account-price'>
+  <checkbox class='all-checked'/><text>全选</text>
+</view>
+<view class='account'>
+  <text>结算</text>
+</view>
+<block>
+  <include src="../components/common-footer" />
+</block>

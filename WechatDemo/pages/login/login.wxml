@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    登录
+  </view>
+  <view class="username">
+    <input placeholder='用户名' bindinput ="userNameInput"></input>
+  </view>
+  <view class="password">
+    <input placeholder='密码' bindinput="passWdInput" ></input>
+  </view>
+  <view class="imageFile">
+    <text catchtap='uploadImage'>上传图片</text>
+    <image src='{{imgFile}}'></image>
+  </view>
+  <view class="login_btn">
+    <button catchtap="confirm">提交</button>
+  </view>
+</view>

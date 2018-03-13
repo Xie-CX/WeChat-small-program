@@ -1,0 +1,59 @@
+/* pages/cart/cart.wxss */
+@import "../components/common-footer.wxss";
+@import "../../icon/iconfont.wxss";
+.cart-goods-list .goods-list{
+  padding: 0 30rpx;
+  height: 180rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.cart-goods-list .goods-list .wx-checkbox-input{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: -90rpx;
+}
+.cart-goods-list .goods-list image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
+}
+.cart-goods-list .goods-list .goods-message{
+  display: inline-block;
+}
+.cart-goods-list .goods-list .goods-message .goods-name{
+  display: block;
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.cart-goods-list .goods-list .goods-message .market-price{
+  font-size: 30rpx;
+}
+.account-price{
+  position: fixed;
+  left: 20rpx;
+  right: 20rpx;
+  bottom: 240rpx;
+  font-size: 30rpx;
+  line-height: 70rpx;
+}
+.account-price .wx-checkbox-input{
+  width: 30rpx;
+  height: 30rpx;
+}
+.account-price text{
+  display: inline-block;
+  font-size: 30rpx;
+}
+.account{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 140rpx;
+  font-size: 50rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color: white;
+  background-color: orange;
+}

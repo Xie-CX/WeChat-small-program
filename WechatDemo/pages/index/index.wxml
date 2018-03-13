@@ -1,0 +1,98 @@
+<!--index.wxml-->
+<view class='swipe-img'>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="imgUrlsId">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" catchtap='goDetail'/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<progress percent="100" color="#cccccc" />
+<view class='index-nav'>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+</view>
+<view class='index-nav'>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+  <view class="nav-item" catchtap='goList'>
+    <image src='../../images/jingpin.png'></image>
+    <text class='item-name'>每日精品</text>
+  </view>
+</view>
+<progress percent="100" color="#cccccc" />
+<view class="index-goods-list">
+  <text class='list-title'>商品列表</text>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail'>
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+  <view class='goods-list' catchtap='goDetail' style="{{show?'display:block':'display:none'}}">
+    <image src='../../images/jingpin.png'></image>
+    <view class='goods-message'>
+      <text class='goods-name'>商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</text>
+      <text class="market-price">市场价：￥2222.00</text>
+    </view>
+  </view>
+</view>
+<block>
+  <include src="../components/common-footer" />
+</block>

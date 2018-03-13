@@ -1,0 +1,25 @@
+/* pages/list/list.wxss */
+.index-goods-list .goods-list{
+  padding: 0 30rpx;
+  height: 180rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.index-goods-list .goods-list image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
+}
+.index-goods-list .goods-list .goods-message{
+  display: inline-block;
+}
+.index-goods-list .goods-list .goods-message .goods-name{
+  display: block;
+  width: 550rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.index-goods-list .goods-list .goods-message .market-price{
+  font-size: 30rpx;
+}

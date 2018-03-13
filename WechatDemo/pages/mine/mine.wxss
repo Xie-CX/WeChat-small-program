@@ -1,0 +1,102 @@
+/* pages/mine/mine.wxss */
+@import "../components/common-footer.wxss";
+@import "../../icon/iconfont.wxss";
+.user-message{
+  position: relative;
+  height: 200rpx;
+  width: 750rpx;
+  color: white;
+  background-color: orange;
+  font-size: 36rpx;
+}
+.user-message image{
+  width: 100rpx;
+  height: 100rpx;
+  /* border: 1rpx solid #000; */
+  border-radius: 50rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 50rpx;
+}
+.user-message .user-name{
+  position: absolute;
+  top: 50rpx;
+  left: 200rpx;
+  display: block;
+  line-height: 50rpx;
+}
+.user-message .user-point{
+  position: absolute;
+  top: 100rpx;
+  left: 200rpx;
+  display: block;
+  line-height: 50rpx;
+}
+.orders{
+  font-size: 36rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.orders .my-orders{
+  padding-left: 20rpx;
+}
+.orders .all-orders{
+  float:right;
+  padding-right: 20rpx;
+}
+.mine-nav{
+  display:flex;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  width: 150rpx;
+  height: 140rpx;
+}
+.mine-nav .nav-item text{
+  display: block;
+  text-align: center;
+  font-size: 70rpx;
+}
+.mine-nav .nav-item image{
+  display: block;
+  margin: 0 auto;
+  /* padding: 0 15rpx; */
+  width: 90rpx ;
+  height: 90rpx;
+  border-radius: 90rpx;
+}
+.mine-nav .nav-item .item-name{
+  display: block;
+  margin-top: 10rpx;
+  width: 150rpx;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.my-util{
+  padding: 20rpx;
+  /* border-top: 1rpx solid #eeeeee; */
+  border-bottom: 1rpx solid #eeeeee;
+  font-size: 36rpx;
+}
+.util-nav{
+  display:flex;
+  margin: 30rpx 0;
+  width: 250rpx;
+  height: 140rpx;
+}
+.util-nav .nav-item image{
+  display: block;
+  margin: 0 auto;
+  /* padding: 0 15rpx; */
+  width: 90rpx ;
+  height: 90rpx;
+  border-radius: 90rpx;
+}
+.util-nav .nav-item .item-name{
+  display: block;
+  margin-top: 10rpx;
+  width: 250rpx;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  text-align: center;
+}

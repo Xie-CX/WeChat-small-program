@@ -1,0 +1,64 @@
+/**index.wxss**/
+@import "../components/common-footer.wxss";
+@import "../../icon/iconfont.wxss";
+.swipe-img {
+  width: 750rpx;
+  height: 350rpx;
+}
+.swipe-img image{
+  width: 750rpx;
+  height: 350rpx;
+}
+.index-nav{
+  display:flex;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  width: 150rpx;
+  height: 140rpx;
+}
+.index-nav .nav-item image{
+  display: block;
+  margin: 0 auto;
+  padding: 0 15rpx;
+  width: 90rpx ;
+  height: 90rpx;
+}
+.index-nav .nav-item .item-name{
+  display: block;
+  margin-top: 10rpx;
+  width: 150rpx;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  text-align: center;
+}
+.index-goods-list .list-title{
+  display: block;
+  padding: 20rpx 30rpx 10rpx;
+  /* border-bottom: 1rpx solid #eeeeee; */
+  /* background-color: #ddd; */
+}
+.index-goods-list .goods-list{
+  padding: 0 30rpx;
+  height: 180rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.index-goods-list .goods-list image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
+}
+.index-goods-list .goods-list .goods-message{
+  display: inline-block;
+  width: 550rpx;
+}
+.index-goods-list .goods-list .goods-message .goods-name{
+  display: block;
+  height: 80rpx;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.index-goods-list .goods-list .goods-message .market-price{
+  display: block;
+  font-size: 30rpx;
+}

@@ -1,0 +1,34 @@
+/* pages/category/category.wxss */
+@import "../components/common-footer.wxss";
+@import "../../icon/iconfont.wxss";
+
+page{
+   background-color: #eeeeee;
+}
+.category-left{
+  width: 200rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 140rpx;
+   overflow: hidden; 
+   background-color: #ffffff;
+}
+.category-left .main-left-wrap {
+  width:200rpx;
+  position: absolute;
+  height:100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.category-left .main-left-wrap text{
+  display: block;
+  font-size: 40rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.category-left .main-left-wrap .active{
+   background-color: #eeeeee;
+   color: orange;
+}

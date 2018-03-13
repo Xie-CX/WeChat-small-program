@@ -1,0 +1,15 @@
+<view class='category-left'>
+  <view class='main-left-wrap'>
+    <text class="{{cat_id == 1 ? 'active' : ''}}" data-cat_id='1' catchtap='changeClass'>分类1</text>
+    <text class="{{cat_id == 2 ? 'active' : ''}}"  data-cat_id='2'catchtap='changeClass'>分类2</text>
+    <text class="{{cat_id == 3 ? 'active' : ''}}"  data-cat_id='3'catchtap='changeClass'>分类3</text>
+    <text class="{{cat_id == 4 ? 'active' : ''}}"  data-cat_id='4'catchtap='changeClass'>分类4</text>
+  </view>
+</view>
+<view class='category-right'>
+  <view class='main-right-content'>
+  </view>
+</view>
+<block>
+  <include src="../components/common-footer" />
+</block>

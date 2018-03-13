@@ -1,0 +1,101 @@
+/* pages/detail/detail.wxss */
+view{
+  font-size: 30rpx;
+}
+.swipe-img swiper{
+  width: 750rpx;
+  height: 750rpx;
+}
+.swipe-img image{
+  width: 750rpx;
+  height: 750rpx;
+}
+.goods-detail {
+  padding: 10rpx 20rpx 0;
+}
+.goods-detail .detail-goods-message{
+  font-size: 34rpx;
+}
+.goods-detail .detail-goods-message .goods-name{
+  display: block;
+}
+.goods-detail .detail-goods-message .goods-summary{
+  display: block;
+  color: #999999;
+  line-height: 60rpx;
+}
+.goods-detail .detail-goods-message .goods-price{
+  display: block;
+  color: red;
+  line-height: 60rpx;
+  font-size: 40rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.goods-detail .detail-goods-message .goods-saleNum-comment{
+  padding: 15rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+.goods-detail .detail-goods-message .goods-saleNum-comment .comment{
+  float: right;
+}
+.goods-num{
+  padding: 15rpx 0;
+}
+.goods-num text{
+  display: inline-block;
+  float: left;
+  line-height: 60rpx;
+}
+.goods-num .count{
+  display: inline-block;
+  width: 240rpx;
+  height: 60rpx;
+}
+.goods-num .count text{
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: red;
+  background-color: #cccccc;
+  border: 1rpx solid #eeeeee;
+}
+.goods-num .count input{
+  display: inline-block;
+  float: left;
+  border-top: 1rpx solid #eeeeee;
+  border-bottom: 1rpx solid #eeeeee;
+  height: 60rpx;
+  width: 100rpx;
+  text-align: center;
+}
+.goods-description{
+  border-top: 10rpx solid #eeeeee;
+}
+.goods-description text{
+  display: block;
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 80rpx;
+}
+.goods-detail-footer-holder{
+  height: 110rpx;
+}
+.goods-detail-footer-holder .goods-detail-footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 110rpx;
+  z-index: 999;
+}
+.goods-detail-footer-holder .goods-detail-footer text{
+  display: block;
+  line-height: 110rpx;
+  text-align: center;
+  color: white;
+  background-color: orange;
+  font-size: 40rpx;
+}
